@@ -35,6 +35,11 @@ public class operators {
         System.out.println(2 & 3);
         System.out.println(2 | 3);
 
+        //we can use functions from math class 
+        //syso(Math.min(5,6)) 
+        //Ramdom = 0-1 ke beech mein se random value deta hai
+        //syso((int)Math.random())//isse ab se ye int ramdom value dega instead of float we can alter it ; syso((int)Math.random()*100)
+
         sc.close();
 
     }

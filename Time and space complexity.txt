@@ -1,0 +1,5 @@
+Time Complexity : Relation between Input Size & Running Time(Operations)
+Best Case - Omega(1)
+Average Case - theta(n+1/2)
+Worst case - O(n)
+

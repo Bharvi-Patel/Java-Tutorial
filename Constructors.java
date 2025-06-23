@@ -92,5 +92,5 @@ public class Constructors {
   */
 
   /*
-   unline languages like python, C++ and Java has no Destructor.Instead,java has an efficient garbage collector that deallocates memory automatically.
+   unline languages like python, C++ and Javascript has no Destructor.Instead,java has an efficient garbage collector that deallocates memory automatically.
    */

@@ -49,14 +49,15 @@ public class loops {
             System.err.println(n+"*"+i+"="+mul);
         }
 
+        
+
         sc.close();
-    }
-}
+   
 
 /* 
 
  For Loop:-
- for(initialisation;condition;updatation){
+for(initialization;condition;updation){
  //do something
  }
 
@@ -71,3 +72,19 @@ public class loops {
  }while(condition);
 
 */
+
+        //break and continue
+        int i = 0;
+        while(true){
+             if(i==3){
+                i++;
+                continue;
+            }
+            System.out.println(i);
+            i++;
+            if(i>5){
+                break;
+            }
+        }
+    }
+}

@@ -1,3 +1,5 @@
+// Strings are immutable in java
+
 import java.util.*;
 
 public class stringss {

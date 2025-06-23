@@ -56,7 +56,7 @@ public class OOP_01 {
 
 OBJECTS - An object is an instantiation of a class. When a class is defined,a template(info) is defined.Memory is allocated only after object instantiation.
 
-How tommodel a problem in OOPs :-
+How to model a problem in OOPs :-
 we identify the following -
 Noun -> Class -> Employee
 Adjective -> Attributes -> Name,Age,Salary
@@ -73,3 +73,6 @@ Verb -> MEthods -> getSalary(),increment()
   object in OOPs =        Attributes + Methods
 
  */
+
+
+ 

@@ -4,7 +4,8 @@
 public class dt_var_literals{
     public static void main(String[] args) {
 
-        String name = "Bharvi Patel";
+        String name = "Bharvi Patel";//Non-primitive type String
+        System.out.println(name.length());
         int a = 10;
         int b = 20;
         int c = 2;
@@ -13,7 +14,8 @@ public class dt_var_literals{
         double price = 25.25; //double is the default type for decimals(D or d laga sakte hai)
         char ch = 'B'; //Character literals should be declared in single qoutes only
         long l = 5677777238847872L;//L or l is required
-
+        boolean bd = true;
+    
         b=25;
         System.out.println(b);
         
@@ -38,7 +40,7 @@ public class dt_var_literals{
 
 /* Variable : container that stores any value
 
-Data Types -> Primitive datatypes : byte=1byte(default value=0) value ranges from -128 to 227 (formula : multiply 8 into number of bytes than divide by 2) ,
+Data Types -> Primitive datatypes : byte=1byte(default value=0) value ranges from -128 to 127 (formula : multiply 8 into number of bytes than divide by 2) ,
                                        short=2bytes(dafault value=0) value ranges from -2^16/2 to 2^16/2 - 1 ,
                                        int=4bytes(default value=0) value ranges from -2^32/2 to 2^32/2 - 1 ,
                                        float(7digits after point)=4bytes(dafault value=0.0f) ,
@@ -48,4 +50,5 @@ Data Types -> Primitive datatypes : byte=1byte(default value=0) value ranges fro
                                        bool= size depends(default value=false) ; value can be true or false
               -> Non-Primitive datatypes(derived from primitives) : These are of variable size and ae usually declared with a new keyword
                                                                     string,array,class,object,interface 
+                                                                  : Variable sizes
  */
